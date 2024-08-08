@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+  background-color: seagreen;
+  height: 160px;
+  width: 100%;
+}
+
+.topnav a {
+  color: sandybrown;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: sandybrown;
+  color: black;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.btn {
+  color: #whitesmoke;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 18px 42px;
+  border-radius: 350px;
+  display: inline-block;
+  font-weight: 400;
+  /*transition: all .4s ease-in-out;*/
+  background-size: 100% 100%;
+  background: whitesmoke;
+  border: 2px solid darkred;
+  color: black;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: whitesmoke;
+  color: yellowgreen;
+}
+
+.info {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+
+.img {
+  float: right;
+  width: 50%;
+}
+
+.info1 {
+  float: right;
+  width: 50%;
+  height: 300px;
+}
+
+.img1 {
+  float: left;
+  width: 50%;
+}
+
+.aayushaimg, .samirimg, .kabishaimg {
+  padding-top: 55px;
+  padding-left: 60px;
+  margin-left: 50px;
+}
+
+.ankitimg, .sabuimg {
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.aayushainfo, .ankitinfo, .samirinfo, .sabuinfo, .kabishainfo {
+  padding: 130px;
+  line-height: 30px;
+}
+
+.maindiv {
+  margin: 30px;
+  height: 400px;
+  background-color: #eeeee4;
+  border-radius: 100px;
+}
+
+.content .title {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(120deg, blue 20%, purple 50%, darkred80%);
+  .webkit-background-clip: text;
+  -webkir-text-fill-color: transparent;
+}
+
+.content h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 50px;
+  line-weight: 250;
+  line-height: 35px;
+  text-transform: inherit;
+  width: 40%;
+}
+
+.content h1 span {
+  color: darkred;
+}
+
+.content p {
+  width: 55%;
+  color: #757575;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.details-info {
+  align-content: center;
+  padding-top: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 10px 180px;
+}
+
+.portfolio {
+  width: 50%;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.table {
+  width: 50%;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.aayushaimgPortfolio {
+  margin-left: 300px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 250px;
+  width: 100%;
+  background: seagreen;
+  color: whitesmoke;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.left_footer {
+  float: left;
+  font-size: 19px;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-left: 60px;
+}
+
+.left_footer a {
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+.right_footer {
+  position: relative;
+  left: 40%;
+  bottom: 200px;
+  margin-top: 15px;
+}
+
+.footer div h3 {
+  font-weight: 300px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+}

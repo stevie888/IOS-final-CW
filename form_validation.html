@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="contactcss.css">
+		<title>form</title>
+		<style>
+			input {
+				margin-left: -180px;
+			}
+		</style>
+	</head>
+	<header>
+		<div class="maindiv">
+			<div class="topnav">
+				<div class="logo" style="float:left">
+					<img src="images/logo.png" alt="LOGO" style="border-radius: 20px;" width="150px" height="150px">
+				</div>
+				<div style="float: right; margin-right: 120px; margin-top: 90px;">
+					<input type="text" placeholder="Search...">
+					<a href="Index.html">Home</a>
+					<a href="Product.html">Product</a>
+					<a href="research.html">Research</a>
+					<a href="blog.html">Blog</a>
+					<a href="aboutus.html">About Us</a>
+					<a href="form_validation.html">Contact Us</a>
+
+
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<body style="background-color: #D0D9B3;">
+		<div style="height: auto; border-style: solid; margin-left: 30%; margin-right: 30%;">
+			<form style="margin-top: 15px;" name="messageForm" onsubmit="validateForm()">
+				<div class="input-box" align="center" style="background-color: #87ae73; width: 170px; height: 30px; margin-left: 490px; position: relative; right: 330px; top: 20px; ">
+					<label style="font-size:23px;">CONTACT US</label>
+					<br><br>
+				</div>
+				<div class="input-box" align="center">
+					<br>
+					<br>
+
+					<label style="margin-left: -200px;">FIRST NAME </label>
+					<br> <br>
+					<input type="text" placeholder="Enter your name" name="fname" required>
+
+					<br> <br>
+
+					<div class="input-box">
+						<label style="margin-left: -200px;">LAST NAME </label>
+						<br> <br>
+						<input type="text" placeholder="Enter your surname" name="lname" required>
+					</div>
+					<br> <br>
+					<label style="margin-left:-200px;">GENDER </label>
+					<br> <br>
+					<input class="gender" type="radio" name="genderdetail" value="male" style="">Male
+					<input class="gender" type="radio" name="genderdetail" value="female" checked style="">Female
+					<br>
+					<br>
+					<br>
+					<label style="margin-left: -200px;"> PHONE NUMBER </label>
+					<br>
+					<br>
+					<div class="input-box">
+						<input type="text" placeholder="Enter your number" required>
+					</div>
+					<br> <br>
+					<label style="margin-left: -200px;"> EMAIL </label>
+					<br>
+					<br>
+					<div class="input-box">
+						<input type="text" placeholder="Enter your email" required>
+					</div>
+					<br> <br>
+					<label style="margin-left: -200px;">MESSAGE</label>
+					<br>
+					<br>
+					<textarea style="margin-left: -180px" rows="6" cols="50" name="message" placeholder="Enter your message"></textarea>
+					<br> <br>
+					<input type="submit" value="SEND">
+			</form>
+
+
+
+
+			<script type="text/javascript">
+				function validateForm() {
+					var firstName = document.forms["messageForm"]["fname"].value;
+					var lastName = document.forms["messageForm"]["lname"].value;
+					var gender = document.forms["messageForm"]["genderdetail"].value;
+					var messagedetail = document.forms["messageForm"]["message"].value;
+
+					if (firstName == "" || lastName == "" || messagedetail == "") {
+						alert("Empty fields are present!!! Please enter the values .......")
+					} else {
+						alert("Thank you for your feedback!!!");
+					}
+				}
+			</script>
+		</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<div style="position: relative; bottom:15px;" class="left_footer">
+					<h3 style="">USEFUL LINKS</h3>
+					<a href="#">Home</a><br>
+					<a href="#">Research</a><br>
+					<a href="#">Blog</a><br>
+					<a href="#">About Us</a><br>
+					<a href="#">Contact Us</a>
+				</div>
+				<div style="position:relative; right: 90px; top:20px;" class="centered_footer">
+					<h3>NEWSLETTER</h3>
+					<form>
+						<input type="email" placeholder="Your Email Address" required>
+						<br>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
+				<div class="right_footer">
+					<h3>CONTACT</h3>
+					<p> 123, XYZ road <br> Kamalpokhari, Kathmandu</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

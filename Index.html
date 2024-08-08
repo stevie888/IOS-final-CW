@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Welcome to our bonsai sansaar</title>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+
+	</head>
+
+	<body>
+
+			<header>
+				<div class="maindiv">
+					<div class="topnav">
+						<div class="logo" style="float:left">
+							<img src="images/logo.png" alt="LOGO" style="border-radius: 20px;" width="150px" height="150px">
+						</div>
+						<div style="float: right; margin-right: 120px; margin-top: 90px;">
+							<input type="text" placeholder="Search...">
+							<a href="Index.html">Home</a>
+							<a href="Product.html">Product</a>
+							<a href="research.html">Research</a>
+							<a href="blog.html">Blog</a>
+							<a href="aboutus.html">About Us</a>
+							<a href="form_vallidation.html">Contact Us</a>
+
+
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!--java script sliding image-->
+
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 2 </div>
+					<img src="images/baugainvillea-bonsai.jpg" style="width:100%;">
+					<div class="text">THE BEST SELLING BONSAI.</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 2 </div>
+				<img src="images/cherry-bonsai.jpg" style="width:100%;">
+				<div class="text">GROW BONSAI GROW FORTUNE.</div>
+			</div>
+
+
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+
+			<header>
+				<h1 id="product-1" style="font-family: Courier New; text-align: center; ">OUR PLANTS</h1>
+			</header>
+			<br><br>
+
+			<section class="display-product">
+
+				<div class="product">
+					<a href="Product.html"><img src="images/cherry-bonsai.jpg" alt="Product" width="150px" height="150px"></a>
+					<h1>Cherry Bonsai</h1>
+					<p>It is mostly used as an outdoor plant.</p>
+					<h2>Price: Rs.1070</h2>
+					<button class="buy-buttons"><a href="#" class="btn-product">Buy Now</button></a></button>
+				</div>
+				<br><br><br><br>
+
+				<div class="product">
+					<a href="Product.html"><img src="images/baugainvillea-bonsai.jpg" alt="Product" width="150px" height="150px"></a>
+					<h1>Baugainvillea Bonsai</h1>
+					<p>It is mostly used as an indoor plant.</p>
+					<h2>Price: Rs.1590</h2>
+					<button class="buy-buttons"><a href="#" class="btn-product">Buy Now</button></a></button>
+				</div><br><br><br><br>
+
+				<div class="product">
+					<a href="Product.html"><img src="images/pine-bonsai.jpeg" alt="Product" width="150px" height="150px"></a>
+					<h1>Pine Bonsai</h1>
+					<p>It is mostly used as an outdoor plant.</p>
+					<h2>Price: Rs.1200</h2>
+					<button class="buy-buttons"><a href="#" class="btn-product">Buy Now</button></a></button>
+				</div><br><br><br><br>
+
+				<div class="product">
+					<a href="Product.html"><img src="images/ceader-bonsai.jpg" alt="Product" width="150px" height="150px"></a>
+					<h1>Ceader Bonsai</h1>
+					<p>It is mostly used as an indoor plant.</p>
+					<h2>Price: Rs.1950</h2>
+					<button class="buy-buttons"><a href="#" class="btn-product">Buy Now</button></a></button>
+				</div><br><br><br><br>
+			</section><br><br><br><br>
+
+			<h2 style="text-align: center;">Blog</h2>
+			<br><br>
+
+			<div class="phaseone"> <img src="images/960x0.jpg" alt="plant1" style="height: 400px; width: 400px; position: relative; left:500px;">
+
+
+				<h1 style="font-family: cursive; font-size: 25px; text-align: center;"> Technology</h1>
+				<p> Technology is machinery and equipment that uses the application of scientific knowledge in a particular area for particular purposes, using technical process,
+					method,or knowledge with,a function,purpose,or benefit to improve human life.Generally, we judge technology on the same scale but in realitytechnology is divided into various types.This includes information technology,Industrial
+					technology,architectural technology,medical technology,transportation
+					technology and many more.Today,technology is now a integral part of the day to day life for each and everyone of us.All of the things that we make use of daily including
+					internet connection,phones,laptops,cars,refrigerators and even gas stoves are all the products of technology.Technology has made our life
+					easier,faster,safer and more convinient.</p>
+				<a href="blog.html"><button style="text-decoration: none;color: whitesmoke;border-radius: 4px;padding: 7px 14px;border: none;box-sizing: border-box;background: seagreen; cursor: pointer;">Read more...</button></a>
+			</div>
+
+			</div><br><br><br><br>
+
+			<script>
+				let slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+					showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+					showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+					let i;
+					let slides = document.getElementsByClassName("mySlides");
+
+					if (n > slides.length) {
+						slideIndex = 1
+					}
+					if (n < 1) {
+						slideIndex = slides.length
+					}
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+					}
+
+					slides[slideIndex - 1].style.display = "block";
+
+				}
+			</script>
+
+
+
+			<footer>
+				<div class="footer">
+					<div style="position: relative; bottom:15px;" class="left_footer">
+						<h3 style="">USEFUL LINKS</h3>
+						<a href="#">Home</a><br>
+						<a href="#">Research</a><br>
+						<a href="#">Blog</a><br>
+						<a href="#">About Us</a><br>
+						<a href="#">Contact Us</a>
+					</div>
+					<div style="position:relative; right: 90px; top:20px;" class="centered_footer">
+						<h3>NEWSLETTER</h3>
+						<form>
+							<input type="email" placeholder="Your Email Address" required>
+							<br>
+							<button type="submit">Submit</button>
+						</form>
+					</div>
+					<div class="right_footer">
+						<h3>CONTACT</h3>
+						<p> 123, XYZ road <br> Kamalpokhari, Kathmandu</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+
+</html>

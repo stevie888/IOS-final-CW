@@ -1,0 +1,153 @@
+.topnav {
+  background-color: seagreen;
+  height: 160px;
+  width: 100%;
+}
+
+.topnav a {
+  color: sandybrown;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: sandybrown;
+  color: black;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.heading p {
+  text-align: center;
+}
+
+.heading {
+  background-color: whitesmoke;
+}
+
+.phaseone {
+  width: 90%;
+  margin: auto;
+  border: 0.01px solid rgb(238, 235, 235);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.phaseone img {
+  height: 350px;
+  width: 600px;
+  padding-left: 250px;
+}
+
+.phasetwo {
+  width: 90%;
+  margin: auto;
+  border: 0.1px solid rgb(237, 234, 234);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.paragraphs h3 {
+  text-align: center;
+}
+
+.phasethree {
+  width: 90%;
+  margin: auto;
+  border: 0.1px solid rgb(234, 230, 230);
+  padding: 10px;
+}
+
+.con img {
+  position: relative;
+  margin: 10px 150px;
+  padding-left: 150px;
+}
+
+.con p {
+  position: absolute;
+  top: 300%;
+  color: white;
+  font-size: 20px;
+  left: 22%;
+}
+
+.phasefour {
+  margin: auto;
+  width: 90%;
+  border: 0.1px solid rgb(214, 210, 210);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.footer {
+  margin-top: 250px;
+  width: 100%;
+  background: seagreen;
+  color: whitesmoke;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.left_footer {
+  float: left;
+  font-size: 19px;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-left: 60px;
+}
+
+.left_footer a {
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.right_footer {
+  position: relative;
+  left: 40%;
+  bottom: 200px;
+}
+
+.footer div h3 {
+  font-weight: 300px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+}

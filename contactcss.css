@@ -1,0 +1,118 @@
+.topnav {
+  background-color: seagreen;
+  height: 160px;
+  width: 100%;
+}
+
+.topnav a {
+  color: sandybrown;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: sandybrown;
+  color: black;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.heading h1 {
+  float: center;
+  height: 330px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+  padding: 6px 0px 0px 20px;
+  border-radius: 7px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.FIRST NAME {
+  margin-left: 100px;
+}
+
+.margin {
+  border-style: solid;
+}
+
+.input-box {
+  width: 700px;
+}
+
+.gender {
+  width: auto;
+}
+
+.footer {
+  margin-top: 250px;
+  width: 100%;
+  background: seagreen;
+  color: whitesmoke;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.left_footer {
+  float: left;
+  font-size: 19px;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-left: 60px;
+}
+
+.left_footer a {
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.right_footer {
+  position: relative;
+  left: 40%;
+  bottom: 200px;
+}
+
+.footer div h3 {
+  font-weight: 300px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+}
